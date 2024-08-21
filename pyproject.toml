@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "torchtune-finetuning"
+version = "0.1.0"
+description = ""
+authors = ["Ibrahim Ouedraogo <ibrahim.ouedraogo@umontreal.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torchtune = "^0.2.1"
+torch = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
